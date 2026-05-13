@@ -1,7 +1,7 @@
-package ru.bogae.geometry;
+package ru.bogae.geometry.figures;
 
 public class Square {
-    static void printSquareAria(double a){// функция printSquareAria ничего не возвращает(void)
+    public static void printSquareAria(double a){// функция printSquareAria ничего не возвращает(void)
         System.out.println("Площадь квадратата со стороной" + a + "=" + squareaArea(a));
     }
 

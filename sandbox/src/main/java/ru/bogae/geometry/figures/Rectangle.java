@@ -1,7 +1,7 @@
-package ru.bogae.geometry;
+package ru.bogae.geometry.figures;
 
 public class Rectangle {
-    static void printRectangleAria(double a, double b) {
+    public static void printRectangleAria(double a, double b) {
         System.out.println("Площадь прямоугольника со сторонами" + a +" и "+b+ "=" + rectangleAria(a,b));
     }
 

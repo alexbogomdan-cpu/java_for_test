@@ -1,6 +1,11 @@
+package ru.bogae.geometry;
+
+import ru.bogae.geometry.figures.Rectangle;
+import ru.bogae.geometry.figures.Square;
+
 public class Geometry {
     public static void main(String[] args){
-        Square.printSquareAria(3);// Вызываем функцию(printSquareAria) которая находится в классе(Square) с параметром а, который имеет значение 3
+        Square.printSquareAria(3);// Вызываем функцию(printSquareAria) которая находится в классе(ru.bogae.geometry.figures.Square) с параметром а, который имеет значение 3
         Square.printSquareAria(5);
         Square.printSquareAria(7);
 
