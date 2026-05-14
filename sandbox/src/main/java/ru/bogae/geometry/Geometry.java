@@ -2,6 +2,7 @@ package ru.bogae.geometry;
 
 import ru.bogae.geometry.figures.Rectangle;
 import ru.bogae.geometry.figures.Square;
+import ru.bogae.geometry.figures.Triangle;
 
 public class Geometry {
     public static void main(String[] args){
@@ -10,6 +11,9 @@ public class Geometry {
         Square.printSquareAria(7);
 
         Rectangle.printRectangleAria(3.0, 5.0);
+
+        Triangle.printTriangleArea(5,7,8);
+
 
     }
 
