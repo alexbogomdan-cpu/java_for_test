@@ -12,7 +12,7 @@ public class Geometry {
 
         Rectangle.printRectangleAria(3.0, 5.0);
 
-        Triangle.printTriangleArea(5,7,8);
+        Triangle.printTriangleArea(5,6,7);
         Triangle.printTianglePerimeter(5,5,5);
 
 
